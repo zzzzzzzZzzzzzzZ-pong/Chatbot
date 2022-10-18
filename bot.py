@@ -1,6 +1,8 @@
 from chatterbot import ChatBot
+from chatterbot.trainers import ListTrainer
 
 chatbot = ChatBot('beetle')
+trainer = ListTrainer(chatbot)
 
 exit_conditions = (":q", "quit", "exit")
 while True:
