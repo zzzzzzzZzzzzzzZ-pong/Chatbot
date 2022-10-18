@@ -1,5 +1,4 @@
 from chatterbot import ChatBot
-import nltk
 
 chatbot = ChatBot('beetle')
 
