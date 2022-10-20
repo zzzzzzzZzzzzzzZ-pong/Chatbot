@@ -15,7 +15,7 @@ trainer.train([
     'this is a bot',
     'message',
     'have u ever thought that the short ppl r actually short'
-    'FAST U DUMB GUY'
+    'FAST, U DUMB GUY'
 ])
 
 exit_conditions = (":q", "quit", "exit")
